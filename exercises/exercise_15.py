@@ -1,2 +1,1 @@
-# Your solution to Exercise 15
-
+print(",".join(sorted(input().split(","))))
