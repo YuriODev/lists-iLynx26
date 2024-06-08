@@ -9,6 +9,12 @@ unicode_str_finish = int('1F64F', 16)
 emojis_list = [chr(unicode_str) for unicode_str in range(unicode_str_start, unicode_str_finish)]
 
 new_emojis = ""
+
+
+while n > len(emojis_list):
+    n -= len(emojis_list)
+
+
 for emoji in emojis:
     new_emojis += emojis_list[emojis_list.index(emoji) + n]
 
