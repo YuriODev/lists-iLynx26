@@ -13,3 +13,15 @@ for i in range(len(number_lst)):
         max_number = new_number
 
 print(max_number)
+
+# number_lst = list(map(int, number_lst))
+# max_number = min(number_lst)
+# max_index = number_lst.index(max_number)
+
+# if max_index == 0:
+#     print(number_lst[1:])
+# elif max_index == len(number_lst) - 1:
+#     print(number_lst[:-1])
+# else:
+#     print(number_lst[:max_index] + number_lst[max_index+1:])
+
