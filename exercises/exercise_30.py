@@ -1,4 +1,4 @@
-from pprint import pprint
+# from pprint import pprint
 
 n = int(input())
 emojis = list(input())
@@ -11,7 +11,7 @@ unicode_str_finish = int('1F64F', 16)
 emojis_list = [chr(unicode_str) for unicode_str in range(unicode_str_start, unicode_str_finish)]
 emojis_dict = {idx: emoji for idx, emoji in enumerate(emojis_list)}
 
-pprint(emojis_dict)
+# pprint(emojis_dict)
 
 new_emojis = ""
 
