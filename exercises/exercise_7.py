@@ -1,2 +1,1 @@
-# Your solution to Exercise 7
-
+print(sum(list(map(int, input().split()))))
