@@ -1,2 +1,1 @@
-# Your solution to Exercise 12
-
+print("".join(input().split()))
