@@ -1,2 +1,3 @@
-# Your solution to Exercise 13
+lst = list(map(int, input().split()))
 
+print(f"{sum(lst)/len(lst):2f}")
