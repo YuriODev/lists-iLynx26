@@ -1,2 +1,1 @@
-# Your solution to Exercise 20
-
+print((input().split())[int(input()) - 1][0])
