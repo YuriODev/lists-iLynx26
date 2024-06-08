@@ -1,2 +1,3 @@
-# Your solution to Exercise 9
-
+lst = list(map(int, input().split(",")))
+print(lst)
+print(tuple(lst))
