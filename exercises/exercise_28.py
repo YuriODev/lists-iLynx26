@@ -1,2 +1,4 @@
-# Your solution to Exercise 28
+line = input().split()
 
+print(line[0])
+print(" ".join(line[1::]))
