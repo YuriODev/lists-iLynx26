@@ -1,2 +1,2 @@
-# Your solution to Exercise 11
-
+lst = input().split("/")
+print(lst[-1])
