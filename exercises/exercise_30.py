@@ -24,7 +24,10 @@ new_emojis = ""
 for emoji in emojis:
     # print("Current emoji")
     # print(f"{emoji} - {emojis_list.index(emoji)}")
-    new_emojis += emojis_list[emojis_list.index(emoji) + n % len(emojis_list) + 1]
+    idx = emojis_list.index(emoji) + n % len(emojis_list)
+    if n < 0:
+        idx += 1
+    new_emojis += emojis_list[idx]
     # print(f"{emojis_list[emojis_list.index(emoji) + n % len(emojis_list)]} - {emojis_list.index(emoji) + n % len(emojis_list) + 1}")
     # print()
 
