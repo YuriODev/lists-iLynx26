@@ -2,8 +2,8 @@ lst = list(map(int, input().split(",")))
 
 output = []
 
-for num in lst:
-    if num % 2 == 0:
-        output.append(str(num))
+for i in range(lst):
+    if i % 2 == 0:
+        output.append(str(lst[i]))
 
 print(','.join(output))
