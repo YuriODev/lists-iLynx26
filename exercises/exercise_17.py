@@ -1,2 +1,1 @@
-# Your solution to Exercise 17
-
+print("/".join(input().split(", ")))
