@@ -1,2 +1,1 @@
-# Your solution to Exercise 2
-
+print(" ".join(sorted(input().split(" "), reverse=True)))
